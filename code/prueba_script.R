@@ -11,3 +11,9 @@ ggplot(dt,
 ggplot(dt, 
        aes(x=Sepal.Width , fill=Species))+
   geom_density(alpha=0.5)
+
+
+ggplot(dt, 
+       aes(x=Sepal.Width , color=Species))+
+  geom_density()
+
